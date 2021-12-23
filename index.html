@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Portfolio Website | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#Contact">Contact us</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">SAIF ALI KHAN</div>
+       <div class="text-two">I'm a MCA student</div>
+       <div class="text-three">KIET group of institutions</div>
+       <div class="text-four">Ghaziabad</div>
+     </div>
+     <div class="button">
+       <button id="demo" onclick="myfunction()">Hire Me</button>
+     </div>
+   </div>
+ </section>
+
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="images/saifkhan.png">
+    </div>
+    <div class="right">
+      <div class="topic">I am a software engineer</div>
+      <p>I am passionate about my work.Because I love what I do, I have a steady source of motivation that drives me to do my best.I am proficient in javaScript, C, C++, Java, React, Bootstrap,HTML&CSS. Out of these ,I would say I am most comfortable using HTML&CSS,javaScript,React,C and C++.IN my privious role,I used React to design applications that are compatible across multiple platforms and I am familier in Reactjs.</p>
+      <div class="button">
+        <button><a href="./saif ali khan Resume.pdf" target="_blank">Download CV</a></button>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="skills" id="skills">
+ <div class="content">
+   <div class="title"><span>My Skills</span></div>
+   <div class="skills-details">
+     <div class="text">
+       <div class="topic">Skills Reflects Our Knowledge</div>
+       <p>A detail oriented, hard working professional with exceptional programming skills possesses Master in computer application degree in Computer. Skilled in programming languages and using them for software developing. Proficient in maintaining the existing program with implementation of new techniques.</p>
+       <div class="experience">
+         <div class="exp">Fresher</div>
+       </div>
+     </div>
+     <div class="boxes">
+       <div class="box">
+         <div class="topic">HTML</div>
+         <div class="per">90%</div>
+       </div>
+       <div class="box">
+         <div class="topic">CSS</div>
+         <div class="per">80%</div>
+       </div>
+       <div class="box">
+         <div class="topic">JavScript</div>
+         <div class="per">70%</div>
+       </div>
+       <div class="box">
+         <div class="topic">C</div>
+         <div class="per">75%</div>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+
+<!-- My Services Section Start -->
+ <section class="services" id="services">
+   <div class="content">
+     <div class="title"><span>My Services</span></div>
+     <div class="boxes">
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-desktop"></i>
+       </div>
+       <div class="topic">Web Devlopment</div>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-paint-brush"></i>
+       </div>
+       <div class="topic">Graphic Design</div>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-chart-line"></i>
+       </div>
+       <div class="topic">Digital Marketing</div>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fab fa-android"></i>
+       </div>
+       <div class="topic">Icon Design</div>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-futbol"></i>
+       </div>
+       <div class="topic">Gaming</div>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-tablet-alt"></i>
+       </div>
+       <div class="topic">Apps Devlopment</div>
+     </div>
+   </div>
+   </div>
+ </section>
+
+<!-- Contact Me section Start -->
+
+<section class="contact" id="Contact">
+  <div class="content">
+    <div class="title"><span>Contact us</span></div>
+  <div class="row">
+    <div class="column">
+    </div>
+    <div class="column">
+      <center>
+      <form action="/8279318688">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">India</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </center>
+    </div>
+  </div>
+</div>
+  
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+    <span>Created By <a href="#">SaifAliKhan</a> | &#169; 2021 All Rights Reserved</span>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
